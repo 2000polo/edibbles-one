@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/edibbles-one/static/css/main.9ee55e93.chunk.css",
-    "main.js": "/edibbles-one/static/js/main.ccb40164.chunk.js",
-    "main.js.map": "/edibbles-one/static/js/main.ccb40164.chunk.js.map",
+    "main.css": "/edibbles-one/static/css/main.90cec07a.chunk.css",
+    "main.js": "/edibbles-one/static/js/main.56d7003f.chunk.js",
+    "main.js.map": "/edibbles-one/static/js/main.56d7003f.chunk.js.map",
     "runtime-main.js": "/edibbles-one/static/js/runtime-main.4b52375f.js",
     "runtime-main.js.map": "/edibbles-one/static/js/runtime-main.4b52375f.js.map",
-    "static/js/2.2dd7eb41.chunk.js": "/edibbles-one/static/js/2.2dd7eb41.chunk.js",
-    "static/js/2.2dd7eb41.chunk.js.map": "/edibbles-one/static/js/2.2dd7eb41.chunk.js.map",
+    "static/js/2.429ca645.chunk.js": "/edibbles-one/static/js/2.429ca645.chunk.js",
+    "static/js/2.429ca645.chunk.js.map": "/edibbles-one/static/js/2.429ca645.chunk.js.map",
     "index.html": "/edibbles-one/index.html",
-    "static/css/main.9ee55e93.chunk.css.map": "/edibbles-one/static/css/main.9ee55e93.chunk.css.map",
-    "static/js/2.2dd7eb41.chunk.js.LICENSE.txt": "/edibbles-one/static/js/2.2dd7eb41.chunk.js.LICENSE.txt",
-    "static/media/Home.css": "/edibbles-one/static/media/pexels-william-choquette-2641886.4f728127.jpg"
+    "static/css/main.90cec07a.chunk.css.map": "/edibbles-one/static/css/main.90cec07a.chunk.css.map",
+    "static/js/2.429ca645.chunk.js.LICENSE.txt": "/edibbles-one/static/js/2.429ca645.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/edibbles-one/static/media/pexels-william-choquette-2641886.4f728127.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.4b52375f.js",
-    "static/js/2.2dd7eb41.chunk.js",
-    "static/css/main.9ee55e93.chunk.css",
-    "static/js/main.ccb40164.chunk.js"
+    "static/js/2.429ca645.chunk.js",
+    "static/css/main.90cec07a.chunk.css",
+    "static/js/main.56d7003f.chunk.js"
   ]
 }

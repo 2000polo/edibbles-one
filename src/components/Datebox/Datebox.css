@@ -1,0 +1,76 @@
+
+.date-box{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+    padding: .8rem .8rem;
+    border-radius: 7px;
+    margin-top: 33px;
+}
+
+.custom-date{
+    background-color: #379e2a;
+    border: none;
+    border-radius: 5px;
+    padding: .5rem 0;
+    color: white;
+    width: 100%;
+}
+
+.close{
+    display: none;
+}
+
+.date-box1{
+    display: none;
+    pointer-events: all;
+}
+
+@media only screen and (max-width: 700px){
+    .date-box-wrapper{
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        pointer-events: none;
+        top: 0;
+        right: 0;
+    }
+    
+    .date-box{
+        display: none;
+        
+    }
+
+    .date-box1{
+        width: 150px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 30%;
+        z-index: 2;
+        transform: translateX(-50%);
+        box-shadow:
+        -1px 0px 27px 0px #0a0a09, 0px 0px 0px 0px #000107;
+        padding: .8rem .8rem;
+        border-radius: 7px;
+        display: block;
+    }
+
+    .close{
+        display: inline-flex;
+        justify-content: flex-end;
+        
+    }
+
+    .into{
+        cursor: pointer;
+        background-color: #379e2a;
+        border-radius: 50%;
+    }
+
+    .hide{
+        display: none;
+        pointer-events: none;
+    }
+}

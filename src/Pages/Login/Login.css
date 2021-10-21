@@ -1,0 +1,104 @@
+nav img{
+    height: 40px;
+    z-index: 2;
+    position: fixed;
+    top: 2vh;
+    left: 4%;
+}
+.main-signin-wrapper{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+
+.signin-section-wrapper{
+    height: auto;
+    width: 30vw;
+    background-color: rgba(255, 255, 255, 0.959);
+    z-index: 2;
+    position: relative;
+    padding: 40px;
+    border-radius: 4px;
+    border: 2px solid #379e2a;
+}
+
+.signin-section-wrapper h2{
+    text-align: center;
+    color: #379e2a;
+    margin-bottom: 3rem;
+
+}
+
+.input-fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-fields input{
+    height: 46px;
+    margin-bottom: 20px ;
+    background-color: rgba(233, 233, 233, 0.836);
+    outline: none;
+    border: none;
+    padding: 0 15px;
+    border-radius: 4px;
+}
+
+input:hover{
+    border: 1px solid #379e2a;
+}
+
+.s-signin{
+    width: 100%;
+    height: 46px;
+    background-color: #379e2a;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    margin: 20px 0 10px 0;
+    font-size: 1rem;
+    color: white;
+}
+
+.check-help{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .7rem;
+    color: rgb(165, 165, 165);
+}
+
+.check-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.check-box input{
+    margin-right: 5px;
+}
+
+
+@media only screen and (max-width: 1100px){
+    .signin-section-wrapper{
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .signin-section-wrapper{
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .signin-section-wrapper{
+        width: 90vw;
+    }
+}
